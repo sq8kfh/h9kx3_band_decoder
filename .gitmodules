@@ -1,0 +1,3 @@
+[submodule "libs/kicad-kfhlib"]
+	path = libs/kicad-kfhlib
+	url = https://github.com/sq8kfh/kicad-kfhlib.git
