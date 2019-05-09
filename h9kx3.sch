@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "h9kx3"
+Title "h9kx3 band decoder"
 Date "2019-05-03"
 Rev "1.0"
 Comp "SQ8KFH"
