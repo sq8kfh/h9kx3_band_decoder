@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 198)
+    (links 214)
     (no_connects 0)
-    (area 119.924999 61.924999 210.075001 162.075001)
+    (area 119.924999 55.084999 222.564286 162.100001)
     (thickness 1.6)
     (drawings 10)
-    (tracks 537)
+    (tracks 535)
     (zones 0)
-    (modules 84)
+    (modules 100)
     (nets 81)
   )
 
@@ -16,7 +16,7 @@
   (title_block
     (title "h9kx3 band decoder")
     (date 2019-05-09)
-    (rev 1)
+    (rev 1.0)
     (company SQ8KFH)
   )
 
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.4)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -68,14 +68,14 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 4.5 4.5)
-    (pad_drill 3.5)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.4)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010e0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -95,9 +95,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -287,6 +287,201 @@
     (add_net "Net-(D6-Pad2)")
     (add_net "Net-(J9-Pad0)")
     (add_net VDD)
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CDB) (tstamp 5CFEF36A)
+    (at 137.953 120.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CD6) (tstamp 5CFEF366)
+    (at 135.953 120.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CD1) (tstamp 5CFEF362)
+    (at 133.953 120.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CCB) (tstamp 5CFEF35E)
+    (at 131.953 120.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CC5) (tstamp 5CFEF35A)
+    (at 137.953 118.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CC0) (tstamp 5CFEF356)
+    (at 135.953 118.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CBA) (tstamp 5CFEF352)
+    (at 133.953 118.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CB4) (tstamp 5CFEF34E)
+    (at 131.953 118.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CAF) (tstamp 5CFEF34A)
+    (at 137.953 116.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CAA) (tstamp 5CFEF346)
+    (at 135.953 116.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48CA5) (tstamp 5CFEF342)
+    (at 133.953 116.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48C9E) (tstamp 5CFEF33E)
+    (at 131.953 116.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48C96) (tstamp 5CFEF33A)
+    (at 137.953 114.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48C90) (tstamp 5CFEF336)
+    (at 135.953 114.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48C8A) (tstamp 5CFEF332)
+    (at 133.953 114.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5CD1DFCE)
@@ -3421,10 +3616,23 @@
     )
   )
 
+  (module kfhlib:VIA (layer F.Cu) (tedit 5CD48C82) (tstamp 5CFEF2A5)
+    (at 131.953 114.046)
+    (tags VIA)
+    (fp_text reference "" (at 0.1 2.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -0.05 -2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
   (gr_text SQ8KFH (at 197.1675 139.6365) (layer F.Cu)
     (effects (font (size 1.6 1.6) (thickness 0.3)))
   )
-  (gr_text "h9kx3 band decoder v1" (at 146.7485 157.861) (layer F.SilkS)
+  (gr_text "h9kx3 band decoder v1.0\n" (at 146.7485 157.861) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.4)))
   )
   (gr_line (start 124.968 162) (end 125 162) (angle 90) (layer Eco1.User) (width 0.2))
@@ -3623,8 +3831,6 @@
   (segment (start 125.08 125.932) (end 125.068 125.932) (width 0.4) (layer B.Cu) (net 2) (tstamp 5CD3326D))
   (segment (start 125.068 125.932) (end 125 126) (width 0.4) (layer B.Cu) (net 2) (tstamp 5CD3326C))
   (via (at 125 126) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 134.989 117.042) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (segment (start 134.989 117.042) (end 134.986 117.042) (width 0.4) (layer B.Cu) (net 2) (tstamp 5CD33268))
   (via (at 125.839 117.042) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 125.839 117.042) (end 125.842 117.042) (width 0.4) (layer B.Cu) (net 2) (tstamp 5CD33264))
   (via (at 142.698 107.009) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
